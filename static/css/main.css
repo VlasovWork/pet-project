@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul, ol, li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html, body {
+    height: 100%;
+    line-height: 150;
+}
+
+.container {
+    background: #2E2C2C;
+}
+
+.gen{
+    background: #2E2C2C;
+}
+.header {
+    display: flex;
+    height: 80px;
+    position: relative;
+
+}
+.logo {
+    display: flex;
+}
+.logo_photo {
+    position: absolute;
+    width: 190px;
+    height: 60px;
+    left: 20px;
+    top: 10px;
+}
+
+.button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 132px;
+    height: 57px;
+    background: #BD3C3C;
+    border-radius: 10px;
+
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    /* identical to box height */    color: #000000;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.line {
+    height: 2px;
+    border: none
+   }
+
+.cons_button {
+
+
+    position: absolute;
+    width: 401px;
+    height: 268px;
+    left: 250px;
+    top: 359px;
+
+    background: #ECB6F4;
+    border: 5px solid #000000;
+    box-shadow: 45px 25px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+
+
+    color: #000000;
+}
+
+
+.tech_button {
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 401px;
+    height: 268px;
+    right: 250px;
+    top: 359px;
+
+    background: #8084EB;
+    border: 5px solid #000000;
+    box-shadow: -45px 25px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+
+
+    color: #000000;
+}
+
+.Headers{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 36px;
+  top: 10px;
+  color: #FFFFFF;
+  text-align: center;
+}

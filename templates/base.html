@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <title>{% block title %}{% endblock %}</title>
+    </head>
+<body>
+<div class="container">
+    <header class="header">
+        <div class="logo">
+            <a href="/"><img class="logo_photo" src="static/images/Group 4.png"></a>
+        </div>
+        <div>
+            <button><a class="button" href="/about">О программе</a></button>
+        </div>
+    </header>
+</div>
+<div class="line"></div>
+
+
+<main class="container">
+        {% block body %}{% endblock %}
+</main>
+
+<div class="line"></div>
+
+<footer>
+    Copyright Я
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
