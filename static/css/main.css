@@ -84,6 +84,10 @@ body {
 	box-shadow: 2px 1px 1px #000;
 	
 }
+.header__button:hover {
+	background-color: #b75555;
+	transition: 0.3s;
+}
 .header__button:not(:last-child) {
 	margin: 0px 34px 0px 0px;
 }
@@ -100,7 +104,7 @@ body {
 .main__container {
 }
 .main__buttons {
-	margin: 243px 75px 0px 75px;
+	margin: 150px 75px 0px 75px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -125,7 +129,15 @@ body {
 	background-color: #ECB6F4;
 	box-shadow: 45px 25px 4px rgba(0, 0, 0, 0.1);
 }
+.main__button-right:hover {
+	background-color: #be84c7;
+	transition: 0.3s;
+}
 .main__button-left {
 	background-color: #8084EB;
 	box-shadow: -45px 25px 4px rgba(0, 0, 0, 0.1);
+}
+.main__button-left:hover {
+	background-color: #6163ad;
+	transition: 0.3s;
 }
